@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amirhosein.tamren11.MainActivity">
+
+    <ImageView
+        android:alpha="0.9"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="are you 18 years old?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radiob1"
+            android:textColor="#ff0000"
+            android:text="yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radiob2"
+            android:textColor="#ff0000"
+            android:text="no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radiogroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="are you male or female?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radiob3"
+            android:textColor="#ff0000"
+            android:text="male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radiob4"
+            android:textColor="#ff0000"
+            android:text="female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+    <Switch
+        android:id="@+id/SW1"
+        android:text="trun on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/b1"
+        android:text="Go to zoomit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
